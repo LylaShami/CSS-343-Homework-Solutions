@@ -1,0 +1,1050 @@
+Sun Dec  3 22:13:17 PST 2023
+Linux csslab15 4.18.0-477.21.1.el8_8.x86_64 #1 SMP Tue Aug 8 21:30:09 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+uid=1150088(lylas3) gid=2121150088(lylas3) groups=2121150088(lylas3),605559(lab-access)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. Runs and produces correct output
+=====================================================
+♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥Starting Storetest.cpp♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+Start testStore1
+End testStore1
+Start testStore2
+End testStore2
+♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+Start testStoreFinal
+End testStoreFinal
+♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+Done.
+♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+Invalid mediaType typeOfGenre : Z
+Invalid mediaType typeOfGenre : Z
+Testings data4customers.txt
+❅❅❅❅❅❅❅❅❅❅❅❅Customer Information❅❅❅❅❅❅❅❅❅❅❅❅
+	Customer ID: 1000 Full Name:  Mouse Minnie
+	Customer ID: 9000 Full Name:  Lizard Larry
+	Customer ID: 8000 Full Name:  Wacky Wally
+	Customer ID: 5000 Full Name:  Frog Freddie
+	Customer ID: 2000 Full Name:  Duck Donald
+	Customer ID: 1111 Full Name:  Mouse Mickey
+	Customer ID: 3333 Full Name:  Witch Wicked
+	Customer ID: 4444 Full Name:  Moose Bullwinkle
+	Customer ID: 6666 Full Name:  Donkey Darrell
+	Customer ID: 7777 Full Name:  Spider Sammy
+	Customer ID: 8888 Full Name:  Pig Porky
+	Customer ID: 9999 Full Name:  Duck Daffy
+Testings data4commands.txt
+★★★★★★★★★★★★★★★★Inventory List of all Items in Store★★★★★★★★★★★★★★★★
+
+ ♛♛♛♛♛Genre'stream(Media typeOfGenre ) For Comedy, Drama and Classic Movies♛♛♛♛♛
+Comedy	F D 10  Woody Allen  Annie Hall 1977
+	F D 10  Joel Coen  Fargo 1996
+	F D 10  John Landis  National Lampoon's Animal House 1978
+	F D 10  Different Years  Pirates of the Caribbean 2000
+	F D 10  Gore Verbinski  Pirates of the Caribbean 2003
+	F D 10  Nora Ephron  Sleepless in Seattle 1993
+	F D 10  Rob Reiner  When Harry Met Sally 1989
+	F D 10  Nora Ephron  You've Got Mail 1998
+Drama
+	D D 10  Barry Levinson  Good Morning Vietnam 1988
+	D D 10  Barry Levinson  Same Director Good Morning Vietnam 1988
+	D D 10  Clint Eastwood  Unforgiven 1992
+	D D 10  Gus Van Sant  Good Will Hunting 2000
+	D D 10  Jonathan Demme  Silence of the Lambs 1991
+	D D 10  Nancy Savoca  Dogfight 1991
+	D D 10  Phillippe De Broca  King of Hearts 1967
+	D D 10  Steven Spielberg  Schindler's List 1993
+Classic
+	C D 10  George Cukor  Holiday  Cary Grant 9 1938
+	C D 10  George Cukor  Holiday  Katherine Hepburn 9 1938
+	C D 10  Victor Fleming  Gone With the Wind  Clark Gable 2 1939
+	C D 10  Victor Fleming  The Wizard of Oz  Judy Garland 7 1939
+	C D 10  Victor Fleming  Gone With the Wind  Vivien Leigh 2 1939
+	C D 10  George Cukor  The Philadelphia Story  Cary Grant 5 1940
+	C D 10  George Cukor  The Philadelphia Story  Katherine Hepburn 5 1940
+	C D 10  John Huston  The Maltese Falcon  Humphrey Bogart 10 1941
+	C D 10  Michael Curtiz  Casablanca  Humphrey Bogart 8 1942
+	C D 10  Michael Curtiz  Casablanca  Ingrid Bergman 8 1942
+	C D 10  Frank Capra  It's a Wonderful Life  Donna Reed 11 1946
+	C D 10  Frank Capra  It's a Wonderful Life  James Steward 11 1946
+	C D 10  Stanley Kubrick  A Clockwork Orange  Malcolm McDowell 2 1971
+	C D 10  Hal Ashby  Harold and Maude  Ruth Gordon 3 1971
+
+✯✯✯✯✯✯✯✯✯Borrowed and Remaining Movies for Each mediaType (Media typeOfGenre )✯✯✯✯✯✯✯✯✯✯ 
+
+✿ Total Borrowed Movies and Remaining Movies for Comedy✿
+ Annie Hall( Woody Allen, 1977)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ Fargo( Joel Coen, 1996)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ National Lampoon's Animal House( John Landis, 1978)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ Pirates of the Caribbean( Different Years, 2000)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ Pirates of the Caribbean( Gore Verbinski, 2003)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ Sleepless in Seattle( Nora Ephron, 1993)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ When Harry Met Sally( Rob Reiner, 1989)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ You've Got Mail( Nora Ephron, 1998)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+
+☂ Total Borrowed Movies and Remaining Movies for Drama☂
+ Good Morning VietnamBorrowed Movies: 0
+The amount of Movies Remaining: 10
+ Same Director Good Morning VietnamBorrowed Movies: 0
+The amount of Movies Remaining: 10
+ UnforgivenBorrowed Movies: 0
+The amount of Movies Remaining: 10
+ Good Will HuntingBorrowed Movies: 0
+The amount of Movies Remaining: 10
+ Silence of the LambsBorrowed Movies: 0
+The amount of Movies Remaining: 10
+ DogfightBorrowed Movies: 0
+The amount of Movies Remaining: 10
+ King of HeartsBorrowed Movies: 0
+The amount of Movies Remaining: 10
+ Schindler's ListBorrowed Movies: 0
+The amount of Movies Remaining: 10
+
+✪ Total Borrowed Movies and Remaining Movies for Classic✪
+ Holiday( Cary Grant 9 1938)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Holiday( Katherine Hepburn 9 1938)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Gone With the Wind( Clark Gable 2 1939)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ The Wizard of Oz( Judy Garland 7 1939)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Gone With the Wind( Vivien Leigh 2 1939)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ The Philadelphia Story( Cary Grant 5 1940)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ The Philadelphia Story( Katherine Hepburn 5 1940)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ The Maltese Falcon( Humphrey Bogart 10 1941)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Casablanca( Humphrey Bogart 8 1942)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Casablanca( Ingrid Bergman 8 1942)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ It's a Wonderful Life( Donna Reed 11 1946)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ It's a Wonderful Life( James Steward 11 1946)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ A Clockwork Orange( Malcolm McDowell 2 1971)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Harold and Maude( Ruth Gordon 3 1971)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+There is no customer Transaction History for: Mouse Minnie
+There is no customer Transaction History for: Frog Freddie
+There is no customer Transaction History for: Wacky Wally
+Invalid Command✘ Please Try Again.X
+Invalid Command✘ Please Try Again.Z
+There is No Customer with this ID✎ 1234
+Movie: Bogus Titleis not found✪: B 1000 D F Bogus Title, 2001Transaction failed✄
+ Harold and Maude Movie Not Available in Stock™
+ Harold and Maude Movie Not Available in Stock™
+ Harold and Maude Movie Not Available in Stock™
+Movie: Bogus Titleis not found✪:B 1000 D D Steven Spielberg, Bogus Title,Transaction failed✄
+★★★★★★★★★★★★★★★★Inventory List of all Items in Store★★★★★★★★★★★★★★★★
+
+ ♛♛♛♛♛Genre'stream(Media typeOfGenre ) For Comedy, Drama and Classic Movies♛♛♛♛♛
+Comedy	F D 9  Woody Allen  Annie Hall 1977
+	F D 8  Joel Coen  Fargo 1996
+	F D 9  John Landis  National Lampoon's Animal House 1978
+	F D 10  Different Years  Pirates of the Caribbean 2000
+	F D 10  Gore Verbinski  Pirates of the Caribbean 2003
+	F D 9  Nora Ephron  Sleepless in Seattle 1993
+	F D 9  Rob Reiner  When Harry Met Sally 1989
+	F D 9  Nora Ephron  You've Got Mail 1998
+Drama
+	D D 9  Barry Levinson  Good Morning Vietnam 1988
+	D D 10  Barry Levinson  Same Director Good Morning Vietnam 1988
+	D D 9  Clint Eastwood  Unforgiven 1992
+	D D 9  Gus Van Sant  Good Will Hunting 2000
+	D D 9  Jonathan Demme  Silence of the Lambs 1991
+	D D 8  Nancy Savoca  Dogfight 1991
+	D D 9  Phillippe De Broca  King of Hearts 1967
+	D D 9  Steven Spielberg  Schindler's List 1993
+Classic
+	C D 9  George Cukor  Holiday  Cary Grant 9 1938
+	C D 10  George Cukor  Holiday  Katherine Hepburn 9 1938
+	C D 10  Victor Fleming  Gone With the Wind  Clark Gable 2 1939
+	C D 10  Victor Fleming  The Wizard of Oz  Judy Garland 7 1939
+	C D 10  Victor Fleming  Gone With the Wind  Vivien Leigh 2 1939
+	C D 9  George Cukor  The Philadelphia Story  Cary Grant 5 1940
+	C D 9  George Cukor  The Philadelphia Story  Katherine Hepburn 5 1940
+	C D 9  John Huston  The Maltese Falcon  Humphrey Bogart 10 1941
+	C D 10  Michael Curtiz  Casablanca  Humphrey Bogart 8 1942
+	C D 10  Michael Curtiz  Casablanca  Ingrid Bergman 8 1942
+	C D 10  Frank Capra  It's a Wonderful Life  Donna Reed 11 1946
+	C D 10  Frank Capra  It's a Wonderful Life  James Steward 11 1946
+	C D 9  Stanley Kubrick  A Clockwork Orange  Malcolm McDowell 2 1971
+	C D 0  Hal Ashby  Harold and Maude  Ruth Gordon 3 1971
+
+✯✯✯✯✯✯✯✯✯Borrowed and Remaining Movies for Each mediaType (Media typeOfGenre )✯✯✯✯✯✯✯✯✯✯ 
+
+✿ Total Borrowed Movies and Remaining Movies for Comedy✿
+ Annie Hall( Woody Allen, 1977)  Borrowed Movies: 1
+ The amount of Movies Remaining: 9
+ Fargo( Joel Coen, 1996)  Borrowed Movies: 2
+ The amount of Movies Remaining: 8
+ National Lampoon's Animal House( John Landis, 1978)  Borrowed Movies: 1
+ The amount of Movies Remaining: 9
+ Pirates of the Caribbean( Different Years, 2000)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ Pirates of the Caribbean( Gore Verbinski, 2003)  Borrowed Movies: 0
+ The amount of Movies Remaining: 10
+ Sleepless in Seattle( Nora Ephron, 1993)  Borrowed Movies: 1
+ The amount of Movies Remaining: 9
+ When Harry Met Sally( Rob Reiner, 1989)  Borrowed Movies: 1
+ The amount of Movies Remaining: 9
+ You've Got Mail( Nora Ephron, 1998)  Borrowed Movies: 1
+ The amount of Movies Remaining: 9
+
+☂ Total Borrowed Movies and Remaining Movies for Drama☂
+ Good Morning VietnamBorrowed Movies: 1
+The amount of Movies Remaining: 9
+ Same Director Good Morning VietnamBorrowed Movies: 0
+The amount of Movies Remaining: 10
+ UnforgivenBorrowed Movies: 1
+The amount of Movies Remaining: 9
+ Good Will HuntingBorrowed Movies: 1
+The amount of Movies Remaining: 9
+ Silence of the LambsBorrowed Movies: 1
+The amount of Movies Remaining: 9
+ DogfightBorrowed Movies: 2
+The amount of Movies Remaining: 8
+ King of HeartsBorrowed Movies: 1
+The amount of Movies Remaining: 9
+ Schindler's ListBorrowed Movies: 1
+The amount of Movies Remaining: 9
+
+✪ Total Borrowed Movies and Remaining Movies for Classic✪
+ Holiday( Cary Grant 9 1938)Borrowed Movies: 1
+The amount of Movies Remaining: 9
+ Holiday( Katherine Hepburn 9 1938)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Gone With the Wind( Clark Gable 2 1939)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ The Wizard of Oz( Judy Garland 7 1939)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Gone With the Wind( Vivien Leigh 2 1939)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ The Philadelphia Story( Cary Grant 5 1940)Borrowed Movies: 1
+The amount of Movies Remaining: 9
+ The Philadelphia Story( Katherine Hepburn 5 1940)Borrowed Movies: 1
+The amount of Movies Remaining: 9
+ The Maltese Falcon( Humphrey Bogart 10 1941)Borrowed Movies: 1
+The amount of Movies Remaining: 9
+ Casablanca( Humphrey Bogart 8 1942)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ Casablanca( Ingrid Bergman 8 1942)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ It's a Wonderful Life( Donna Reed 11 1946)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ It's a Wonderful Life( James Steward 11 1946)Borrowed Movies: 0
+The amount of Movies Remaining: 10
+ A Clockwork Orange( Malcolm McDowell 2 1971)Borrowed Movies: 1
+The amount of Movies Remaining: 9
+ Harold and Maude( Ruth Gordon 3 1971)Borrowed Movies: 10
+The amount of Movies Remaining: 0
+Summary Transactions for Customer
+✉Transaction History for:  Mouse Minnie
+1.  B 1000 D D Barry Levinson, Good Morning Vietnam, Borrowed♾️
+2.  B 1000 D C 5 1940 Katherine Hepburn Borrowed♾️
+3.  B 1000 D D Gus Van Sant, Good Will Hunting, Borrowed♾️
+4.  B 1000 D C 5 1940 Cary Grant Borrowed♾️
+5.  B 1000 D C 3 1971 Ruth Gordon Borrowed♾️
+6.  B 1000 Z F Fargo, 1996 Borrowed♾️
+Summary Transactions for Customer
+✉Transaction History for:  Mouse Mickey
+1.  B 1111 D C 2 1971 Malcolm McDowell Borrowed♾️
+2.  B 1111 D C 3 1971 Ruth Gordon Borrowed♾️
+3.  B 1111 D C 10 1941 Humphrey Bogart Borrowed♾️
+4.  B 1111 D C 9 1938 Cary Grant Borrowed♾️
+Summary Transactions for Customer
+✉Transaction History for:  Frog Freddie
+1.  B 5000 D C 3 1971 Ruth Gordon Borrowed♾️
+2.  R 5000 D C 3 1971 Ruth Gordon Returned☮
+3.  B 5000 D C 3 1971 Ruth Gordon Borrowed♾️
+4.  R 5000 D C 3 1971 Ruth Gordon Returned☮
+5.  B 5000 D C 3 1971 Ruth Gordon Borrowed♾️
+6.  R 5000 D C 3 1971 Ruth Gordon Returned☮
+7.  B 5000 D C 3 1971 Ruth Gordon Borrowed♾️
+Summary Transactions for Customer
+✉Transaction History for:  Wacky Wally
+1.  B 8000 D F You've Got Mail, 1998 Borrowed♾️
+2.  R 8000 D F You've Got Mail, 1998 Returned☮
+3.  B 8000 D C 3 1971 Ruth Gordon Borrowed♾️
+4.  B 8000 D C 3 1971 Ruth Gordon Borrowed♾️
+5.  B 8000 D F National Lampoon's Animal House, 1978 Borrowed♾️
+Summary Transactions for Customer
+✉Transaction History for:  Pig Porky
+1.  B 8888 D F Annie Hall, 1977 Borrowed♾️
+2.  B 8888 D F When Harry Met Sally, 1989 Borrowed♾️
+3.  B 8888 D D Jonathan Demme, Silence of the Lambs, Borrowed♾️
+4.  B 8888 D D Nancy Savoca, Dogfight, Borrowed♾️
+5.  B 8888 D C 3 1971 Ruth Gordon Borrowed♾️
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+13084 warnings generated.
+26168 warnings generated.
+39902 warnings generated.
+52987 warnings generated.
+69649 warnings generated.
+85965 warnings generated.
+97341 warnings generated.
+116115 warnings generated.
+130586 warnings generated.
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/classic.h:16:3: error: single-argument constructors must be marked explicit to avoid unintentional implicit conversions [google-explicit-constructor,-warnings-as-errors]
+  Classic(const string &line);
+  ^
+  explicit 
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/comedy.h:18:3: error: single-argument constructors must be marked explicit to avoid unintentional implicit conversions [google-explicit-constructor,-warnings-as-errors]
+  Comedy(const string &line);
+  ^
+  explicit 
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/drama.cpp:16:23: error: method 'splitString' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+vector<string> Drama::splitString(const string &str, char delimiter) {
+                      ^
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/drama.h:17:3: error: single-argument constructors must be marked explicit to avoid unintentional implicit conversions [google-explicit-constructor,-warnings-as-errors]
+  Drama(const string &line);
+  ^
+  explicit 
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/hashtable.cpp:11:16: error: method 'hashFunction' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+int HashTable::hashFunction(int id) {
+               ^
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/hashtable.h:33:15: error: parameter 'id' is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions [readability-avoid-const-params-in-decls,-warnings-as-errors]
+  bool remove(const int id);
+              ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/movie.cpp:62:13: error: method 'setMovieType' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+void Movie::setMovieType(char movieType) { movieType = movieType; }
+            ^
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/movie.cpp:78:13: error: method 'setMediaType' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+void Movie::setMediaType(char mediaType) { mediaType = mediaType; }
+            ^
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:54:9: error: invalid case style for variable 'ID' [readability-identifier-naming,-warnings-as-errors]
+    int ID;
+        ^~
+        id
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:92:5: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+  } else {
+    ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:113:5: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+  } else {
+    ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:134:5: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+  } else {
+    ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:140:13: error: method 'updateMovieInventory' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+bool Store::updateMovieInventory(int stockChange, Movie *movie) {
+            ^
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:142:8: error: implicit conversion 'Movie *' -> bool [readability-implicit-bool-conversion,-warnings-as-errors]
+  if (!movie) {
+      ~^
+             == nullptr
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:178:5: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+  } else {
+    ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:199:12: error: method 'subStringAt' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+int Store::subStringAt(string str, int index, char sign) {
+           ^
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:230:3: error: 'if' statement is unnecessary; deleting null pointer has no effect [readability-delete-null-pointer,-warnings-as-errors]
+  if (customer == 0) {
+  ^~~~~~~~~~~~~~~~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:240:5: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+  } else
+    ^~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:240:9: error: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements,-warnings-as-errors]
+  } else
+        ^
+note: this fix will not be applied because it overlaps with another fix
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:260:13: error: method 'sortMoviesByCriteria' can be made static [readability-convert-member-functions-to-static,-warnings-as-errors]
+void Store::sortMoviesByCriteria(
+            ^
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:273:9: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+      } else {
+        ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:282:9: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+      } else {
+        ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:291:9: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+      } else {
+        ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:428:12: error: invalid case style for variable 'ID' [readability-identifier-naming,-warnings-as-errors]
+    string ID;
+           ^~
+           id
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:443:9: error: invalid case style for variable 'ID' [readability-identifier-naming,-warnings-as-errors]
+    int ID;
+        ^~
+        id
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:542:15: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+            } else {
+              ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:583:15: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+            } else {
+              ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:600:15: error: do not use 'else' after 'return' [llvm-else-after-return,readability-else-after-return,-warnings-as-errors]
+            } else {
+              ^~~~~~
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.cpp:685:15: error: implicit conversion 'Movie *' -> bool [readability-implicit-bool-conversion,-warnings-as-errors]
+          if (movie) {
+              ^
+                    != nullptr
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store.h:5:1: error: #includes are not sorted properly [llvm-include-order,-warnings-as-errors]
+#include <iostream>
+^        ~~~~~~~~~~
+         <functional>
+/home/NETID/lylas3/CSS343/Project4/343-movies-LylaShami394/store_test.cpp:8:1: error: #includes are not sorted properly [llvm-include-order,-warnings-as-errors]
+#include <iostream>
+^        ~~~~~~~~~~
+         <fstream>
+Suppressed 130534 warnings (130534 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+31 warnings treated as errors
+=====================================================
+4. clang-format does not find any formatting issues
+=====================================================
+Running clang-format on ./classic.cpp
+6d5
+< 
+10c9
+< vector<string> Classic::splitString(const string& str, char delimiter)  {
+---
+> vector<string> Classic::splitString(const string &str, char delimiter) {
+44c43
+<   } 
+---
+>   }
+48,49c47,49
+< Classic::Classic(int movieStock, string name, string movieTitle, string actorNameAndReleaseDate,
+<                  int releaseDate, char movieType, char mediaType) {
+---
+> Classic::Classic(int movieStock, string name, string movieTitle,
+>                  string actorNameAndReleaseDate, int releaseDate,
+>                  char movieType, char mediaType) {
+69c69,71
+< string Classic::getNameOfActorAndReleaseDate() { return actorNameAndReleaseDate; }
+---
+> string Classic::getNameOfActorAndReleaseDate() {
+>   return actorNameAndReleaseDate;
+> }
+71c73,74
+< // Overloaded less than operator for comparing Classic movies based on actorNameAndReleaseDate
+---
+> // Overloaded less than operator for comparing Classic movies based on
+> // actorNameAndReleaseDate
+76c79,80
+< // Overloaded greater than operator for comparing Classic movies based on actorNameAndReleaseDate
+---
+> // Overloaded greater than operator for comparing Classic movies based on
+> // actorNameAndReleaseDate
+81c85,86
+< // Overloaded equality operator for comparing Classic movies based on actorNameAndReleaseDate
+---
+> // Overloaded equality operator for comparing Classic movies based on
+> // actorNameAndReleaseDate
+86c91,92
+< // Overloaded inequality operator for comparing Classic movies based on actorNameAndReleaseDate
+---
+> // Overloaded inequality operator for comparing Classic movies based on
+> // actorNameAndReleaseDate
+Running clang-format on ./comedy.cpp
+48,49c48,49
+< Comedy::Comedy(int movieStock, string name, string movieTitle, int releaseDate, char movieType,
+<                char mediaType) {
+---
+> Comedy::Comedy(int movieStock, string name, string movieTitle, int releaseDate,
+>                char movieType, char mediaType) {
+67c67,68
+< // Overloaded greater than operator for comparing Comedy movies based on movieTitle
+---
+> // Overloaded greater than operator for comparing Comedy movies based on
+> // movieTitle
+77c78,79
+< // Overloaded inequality operator for comparing Comedy movies based on movieTitle
+---
+> // Overloaded inequality operator for comparing Comedy movies based on
+> // movieTitle
+Running clang-format on ./customer.cpp
+17c17
+<     this->ID = id;
+---
+>   this->ID = id;
+19,25c19,21
+<     if (!lastName.empty()) {
+<         this->lastName = lastName;
+<     }
+<     
+<     this->firstName = firstName;
+<     transactionsInTotal = 0;
+< }
+---
+>   if (!lastName.empty()) {
+>     this->lastName = lastName;
+>   }
+26a23,25
+>   this->firstName = firstName;
+>   transactionsInTotal = 0;
+> }
+34c33,34
+< // Check if a movie is borrowed by the customer and update the transaction history
+---
+> // Check if a movie is borrowed by the customer and update the transaction
+> // history
+75,76c75,76
+<   cout << "✉Transaction History for:  " << getFirstName()
+<        << " " << getLastName() << endl;
+---
+>   cout << "✉Transaction History for:  " << getFirstName() << " "
+>        << getLastName() << endl;
+79,80c79,80
+<     cout << ++transactionNumber  << ". " << customerTransactionHistory[i][2] << " "
+<          << customerTransactionHistory[i][0] << " "
+---
+>     cout << ++transactionNumber << ". " << customerTransactionHistory[i][2]
+>          << " " << customerTransactionHistory[i][0] << " "
+Running clang-format on ./drama.cpp
+42c42,43
+< Drama::Drama(int movieStock, string name, string movieTitle, int releaseDate, char movieType, char mediaType) {
+---
+> Drama::Drama(int movieStock, string name, string movieTitle, int releaseDate,
+>              char movieType, char mediaType) {
+Running clang-format on ./hashtable.cpp
+5,8c5,8
+<     // Constructor: Initialize the hash table with nullptrs
+<     for (int i = 0; i < MAXTABLESIZE; ++i) {
+<         tableOfCustomers.push_back(nullptr);
+<     }
+---
+>   // Constructor: Initialize the hash table with nullptrs
+>   for (int i = 0; i < MAXTABLESIZE; ++i) {
+>     tableOfCustomers.push_back(nullptr);
+>   }
+12,13c12,13
+<     // Hash function: Maps customer ID to an index in the hash table
+<     return (id % MAXTABLESIZE);
+---
+>   // Hash function: Maps customer ID to an index in the hash table
+>   return (id % MAXTABLESIZE);
+29c29
+< bool HashTable::insert(Customer* customer) {
+---
+> bool HashTable::insert(Customer *customer) {
+33c33
+<   Node* nodeToAdd = new Node(id, customer);
+---
+>   Node *nodeToAdd = new Node(id, customer);
+38c38
+<     Node* current = tableOfCustomers[index];
+---
+>     Node *current = tableOfCustomers[index];
+44c44
+<         return false;  // Duplicate customer ID
+---
+>         return false; // Duplicate customer ID
+61c61,62
+<   // Destructor: Deallocate memory for all nodes and customer objects in the hash table
+---
+>   // Destructor: Deallocate memory for all nodes and customer objects in the
+>   // hash table
+86c87
+<   return nullptr;  // Customer not found
+---
+>   return nullptr; // Customer not found
+90,91c91,92
+<     // Get the total number of customers in the hash table
+<     int size = 0;
+---
+>   // Get the total number of customers in the hash table
+>   int size = 0;
+93,94c94,95
+<     for (const auto& current : tableOfCustomers) {
+<         Node* currentNode = current;
+---
+>   for (const auto &current : tableOfCustomers) {
+>     Node *currentNode = current;
+96,99c97,99
+<         while (currentNode != nullptr) {
+<             size++;
+<             currentNode = currentNode->next;
+<         }
+---
+>     while (currentNode != nullptr) {
+>       size++;
+>       currentNode = currentNode->next;
+100a101
+>   }
+102c103
+<     return size;
+---
+>   return size;
+106,109c107,110
+<     // Remove a customer by ID from the hash table
+<     int index = hashFunction(id);
+<     Node* current = tableOfCustomers[index];
+<     Node* prev = nullptr;
+---
+>   // Remove a customer by ID from the hash table
+>   int index = hashFunction(id);
+>   Node *current = tableOfCustomers[index];
+>   Node *prev = nullptr;
+111,121c112,118
+<     while (current != nullptr) {
+<         if (current->id == id) {
+<             if (prev == nullptr) {
+<                 tableOfCustomers[index] = current->next;
+<             } else {
+<                 prev->next = current->next;
+<             }
+< 
+<             delete current;
+<             return true;  // Customer removed successfully
+<         }
+---
+>   while (current != nullptr) {
+>     if (current->id == id) {
+>       if (prev == nullptr) {
+>         tableOfCustomers[index] = current->next;
+>       } else {
+>         prev->next = current->next;
+>       }
+123,124c120,121
+<         prev = current;
+<         current = current->next;
+---
+>       delete current;
+>       return true; // Customer removed successfully
+127c124,128
+<     return false;  // Customer not found
+---
+>     prev = current;
+>     current = current->next;
+>   }
+> 
+>   return false; // Customer not found
+Running clang-format on ./main.cpp
+18,19c18
+<   cout << "♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥"
+<        << endl;
+---
+>   cout << "♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥" << endl;
+21c20
+< Store myStore;
+---
+>   Store myStore;
+23,25c22,24
+< // Open and build the movie list
+< ifstream movies("data4movies.txt");
+< if (!movies) {
+---
+>   // Open and build the movie list
+>   ifstream movies("data4movies.txt");
+>   if (!movies) {
+29,30c28,29
+< }
+< myStore.buildListForMovie(movies);
+---
+>   }
+>   myStore.buildListForMovie(movies);
+32,34c31,33
+< // Open and build the customer list
+< ifstream customers("data4customers.txt");
+< if (!customers) {
+---
+>   // Open and build the customer list
+>   ifstream customers("data4customers.txt");
+>   if (!customers) {
+38,47c37,46
+< }
+< myStore.buildCustomerList(customers);
+< cout << "Testings data4customers.txt" << endl;
+< cout << "❅❅❅❅❅❅❅❅❅❅❅❅Customer Information"
+<      << "❅❅❅❅❅❅❅❅❅❅❅❅" << endl;
+< myStore.printAllCustomer();
+< 
+< // Open and process the commands
+< ifstream commands("data4commands.txt");
+< if (!commands) {
+---
+>   }
+>   myStore.buildCustomerList(customers);
+>   cout << "Testings data4customers.txt" << endl;
+>   cout << "❅❅❅❅❅❅❅❅❅❅❅❅Customer Information"
+>        << "❅❅❅❅❅❅❅❅❅❅❅❅" << endl;
+>   myStore.printAllCustomer();
+> 
+>   // Open and process the commands
+>   ifstream commands("data4commands.txt");
+>   if (!commands) {
+51,56c50,52
+< }
+< cout << "Testings data4commands.txt" << endl;
+< myStore.sortingMoviesAndCommandsFile(commands);
+< 
+< return 0;
+< 
+---
+>   }
+>   cout << "Testings data4commands.txt" << endl;
+>   myStore.sortingMoviesAndCommandsFile(commands);
+57a54
+>   return 0;
+Running clang-format on ./movie.cpp
+3d2
+< 
+17c16,17
+< Movie::Movie(int movieStock, string name, string movieTitle, int releaseDate, char movieType, char mediaType) {
+---
+> Movie::Movie(int movieStock, string name, string movieTitle, int releaseDate,
+>              char movieType, char mediaType) {
+41c41,42
+<     cout << "That Movie is not available, that movie is out of stock:( Sorry!)" << endl;
+---
+>     cout << "That Movie is not available, that movie is out of stock:( Sorry!)"
+>          << endl;
+Running clang-format on ./store.cpp
+30,31c30,31
+<     // If the mediaType is 'F' (for Fantasy), add the movie to the Fantasy mediaType
+<     // list
+---
+>     // If the mediaType is 'F' (for Fantasy), add the movie to the Fantasy
+>     // mediaType list
+34c34,35
+<     // If the mediaType is 'D' (for Drama), add the movie to the Drama mediaType list
+---
+>     // If the mediaType is 'D' (for Drama), add the movie to the Drama mediaType
+>     // list
+37c38,39
+<     // If the mediaType is 'C' (for Comedy), add the movie to the Comedy mediaType list
+---
+>     // If the mediaType is 'C' (for Comedy), add the movie to the Comedy
+>     // mediaType list
+297,298c299,329
+<   // Display inventory list of all items in the store
+< cout << "★★★★★★★★★★★★★★★★Inventory List of all Items in Store★★★★★★★★★★★★★★★★" << endl;
+---
+>     // Display inventory list of all items in the store
+>     cout << "★★★★★★★★★★★★★★★★Inventory List of all Items in "
+>             "Store★★★★★★★★★★★★★★★★"
+>          << endl;
+> 
+>     // Display genres for Comedy, Drama, and Classic movies
+>     cout << "\n ♛♛♛♛♛Genre'stream(Media typeOfGenre ) For Comedy, Drama and "
+>             "Classic Movies♛♛♛♛♛"
+>          << endl;
+> 
+>     // Display Comedy movies
+>     cout << "Comedy";
+>     for (Movie *movieF : moviesF) {
+>       // Display movie details: media type, movie type, number of movies,
+>       // director, title, and release year
+>       cout << "\t" << movieF->getMediaType() << " " << movieF->getMovieType()
+>            << " " << movieF->getNumOfMovies() << " "
+>            << movieF->getNameOfDirector() << " " << movieF->getMovieTitle()
+>            << " " << movieF->getReleaseYear() << endl;
+>     }
+> 
+>     // Display Drama movies
+>     cout << "Drama" << endl;
+>     for (Movie *movieD : moviesD) {
+>       // Display movie details: media type, movie type, number of movies,
+>       // director, title, and release year
+>       cout << "\t" << movieD->getMediaType() << " " << movieD->getMovieType()
+>            << " " << movieD->getNumOfMovies() << " "
+>            << movieD->getNameOfDirector() << " " << movieD->getMovieTitle()
+>            << " " << movieD->getReleaseYear() << endl;
+>     }
+300,301c331,340
+< // Display genres for Comedy, Drama, and Classic movies
+< cout << "\n ♛♛♛♛♛Genre'stream(Media typeOfGenre ) For Comedy, Drama and Classic Movies♛♛♛♛♛" << endl;
+---
+>     // Display Classic movies
+>     cout << "Classic" << endl;
+>     for (Movie *movieC : moviesC) {
+>       // Display movie details: media type, movie type, number of movies,
+>       // director, title, and actor/release date
+>       cout << "\t" << movieC->getMediaType() << " " << movieC->getMovieType()
+>            << " " << movieC->getNumOfMovies() << " "
+>            << movieC->getNameOfDirector() << " " << movieC->getMovieTitle()
+>            << " " << movieC->getNameOfActorAndReleaseDate() << endl;
+>     }
+303,334c342,352
+< // Display Comedy movies
+< cout << "Comedy";
+< for (Movie *movieF : moviesF) {
+<     // Display movie details: media type, movie type, number of movies, director, title, and release year
+<     cout << "\t" << movieF->getMediaType() << " " << movieF->getMovieType() << " " << movieF->getNumOfMovies()
+<          << " " << movieF->getNameOfDirector() << " " << movieF->getMovieTitle() << " " << movieF->getReleaseYear() << endl;
+< }
+< 
+< // Display Drama movies
+< cout << "Drama" << endl;
+< for (Movie *movieD : moviesD) {
+<     // Display movie details: media type, movie type, number of movies, director, title, and release year
+<     cout << "\t" << movieD->getMediaType() << " " << movieD->getMovieType() << " " << movieD->getNumOfMovies()
+<          << " " << movieD->getNameOfDirector() << " " << movieD->getMovieTitle() << " " << movieD->getReleaseYear() << endl;
+< }
+< 
+< // Display Classic movies
+< cout << "Classic" << endl;
+< for (Movie *movieC : moviesC) {
+<     // Display movie details: media type, movie type, number of movies, director, title, and actor/release date
+<     cout << "\t" << movieC->getMediaType() << " " << movieC->getMovieType() << " " << movieC->getNumOfMovies()
+<          << " " << movieC->getNameOfDirector() << " " << movieC->getMovieTitle() << " " << movieC->getNameOfActorAndReleaseDate() << endl;
+< }
+< 
+< // Display borrowed and remaining movies for each media type (Genre)
+< cout << "\n✯✯✯✯✯✯✯✯✯Borrowed and Remaining Movies for Each mediaType (Media typeOfGenre )✯✯✯✯✯✯✯✯✯✯ " << endl;
+< 
+< // Display total borrowed and remaining movies for Comedy
+< cout << "\n✿ Total Borrowed Movies and Remaining Movies for Comedy✿" << endl;
+< for (Movie *movieF : moviesF) {
+<     ifstream inFile("data4movies.txt");
+<     if (!inFile) {
+---
+>     // Display borrowed and remaining movies for each media type (Genre)
+>     cout << "\n✯✯✯✯✯✯✯✯✯Borrowed and Remaining Movies for Each mediaType "
+>             "(Media typeOfGenre )✯✯✯✯✯✯✯✯✯✯ "
+>          << endl;
+> 
+>     // Display total borrowed and remaining movies for Comedy
+>     cout << "\n✿ Total Borrowed Movies and Remaining Movies for Comedy✿"
+>          << endl;
+>     for (Movie *movieF : moviesF) {
+>       ifstream inFile("data4movies.txt");
+>       if (!inFile) {
+337c355,358
+<     }
+---
+>       }
+> 
+>       string line;
+>       getline(inFile, line);
+339,340c360,382
+<     string line;
+<     getline(inFile, line);
+---
+>       istringstream issued(line);
+>       char character;
+>       int dependingNumber;
+> 
+>       string characterOfStrings;
+>       getline(issued, characterOfStrings, ',');
+>       istringstream(characterOfStrings) >> character;
+> 
+>       string numberOfStrings;
+>       getline(issued, numberOfStrings);
+>       istringstream(numberOfStrings) >> dependingNumber;
+> 
+>       inFile.close();
+> 
+>       // Display movie title, director, release year, borrowed movies, and
+>       // remaining movies
+>       cout << movieF->getMovieTitle() << "(" << movieF->getNameOfDirector()
+>            << ", " << movieF->getReleaseYear() << ") "
+>            << " Borrowed Movies: " << dependingNumber - movieF->getNumOfMovies()
+>            << "\n"
+>            << " The amount of Movies Remaining: " << movieF->getNumOfMovies()
+>            << endl;
+>     }
+342,366c384,388
+<     istringstream issued(line);
+<     char character;
+<     int dependingNumber;
+< 
+<     string characterOfStrings;
+<     getline(issued, characterOfStrings, ',');
+<     istringstream(characterOfStrings) >> character;
+< 
+<     string numberOfStrings;
+<     getline(issued, numberOfStrings);
+<     istringstream(numberOfStrings) >> dependingNumber;
+< 
+<     inFile.close();
+< 
+<     // Display movie title, director, release year, borrowed movies, and remaining movies
+<     cout << movieF->getMovieTitle() << "(" << movieF->getNameOfDirector() << ", " << movieF->getReleaseYear() << ") "
+<          << " Borrowed Movies: " << dependingNumber - movieF->getNumOfMovies() << "\n"
+<          << " The amount of Movies Remaining: " << movieF->getNumOfMovies() << endl;
+< }
+< 
+< // Display total borrowed and remaining movies for Drama
+< cout << "\n☂ Total Borrowed Movies and Remaining Movies for Drama☂" << endl;
+< for (Movie *movieD : moviesD) {
+<     ifstream inFile("data4movies.txt");
+<     if (!inFile) {
+---
+>     // Display total borrowed and remaining movies for Drama
+>     cout << "\n☂ Total Borrowed Movies and Remaining Movies for Drama☂" << endl;
+>     for (Movie *movieD : moviesD) {
+>       ifstream inFile("data4movies.txt");
+>       if (!inFile) {
+369c391,394
+<     }
+---
+>       }
+> 
+>       string line;
+>       getline(inFile, line);
+371,372c396,415
+<     string line;
+<     getline(inFile, line);
+---
+>       istringstream issued(line);
+>       char character;
+>       int dependingNumber;
+> 
+>       string characterOfStrings;
+>       getline(issued, characterOfStrings, ',');
+>       istringstream(characterOfStrings) >> character;
+>       string numberOfStrings;
+>       getline(issued, numberOfStrings);
+>       istringstream(numberOfStrings) >> dependingNumber;
+> 
+>       inFile.close();
+> 
+>       // Display movie title, borrowed movies, and remaining movies for Drama
+>       cout << movieD->getMovieTitle()
+>            << "Borrowed Movies: " << dependingNumber - movieD->getNumOfMovies()
+>            << "\n"
+>            << "The amount of Movies Remaining: " << movieD->getNumOfMovies()
+>            << endl;
+>     }
+374,396c417,422
+<     istringstream issued(line);
+<     char character;
+<     int dependingNumber;
+< 
+<     string characterOfStrings;
+<     getline(issued, characterOfStrings, ',');
+<     istringstream(characterOfStrings) >> character;
+<     string numberOfStrings;
+<     getline(issued, numberOfStrings);
+<     istringstream(numberOfStrings) >> dependingNumber;
+< 
+<     inFile.close();
+< 
+<     // Display movie title, borrowed movies, and remaining movies for Drama
+<     cout << movieD->getMovieTitle() << "Borrowed Movies: " << dependingNumber - movieD->getNumOfMovies() << "\n"
+<          << "The amount of Movies Remaining: " << movieD->getNumOfMovies() << endl;
+< }
+< 
+< // Display total borrowed and remaining movies for Classic
+< cout << "\n✪ Total Borrowed Movies and Remaining Movies for Classic✪" << endl;
+< for (Movie *movieC : moviesC) {
+<     ifstream inFile("data4movies.txt");
+<     if (!inFile) {
+---
+>     // Display total borrowed and remaining movies for Classic
+>     cout << "\n✪ Total Borrowed Movies and Remaining Movies for Classic✪"
+>          << endl;
+>     for (Movie *movieC : moviesC) {
+>       ifstream inFile("data4movies.txt");
+>       if (!inFile) {
+399c425
+<     }
+---
+>       }
+401,402c427,428
+<     string line;
+<     getline(inFile, line);
+---
+>       string line;
+>       getline(inFile, line);
+404,422c430,452
+<     istringstream issued(line);
+<     char character;
+<     int dependingNumber;
+< 
+<     string characterOfStrings;
+<     getline(issued, characterOfStrings, ',');
+<     istringstream(characterOfStrings) >> character;
+< 
+<     string numberOfStrings;
+<     getline(issued, numberOfStrings);
+<     istringstream(numberOfStrings) >> dependingNumber;
+< 
+<     inFile.close(); // Close the input file
+< 
+<     // Display movie title, actor/release date, borrowed movies, and remaining movies for Classic
+<     cout << movieC->getMovieTitle() << "(" << movieC->getNameOfActorAndReleaseDate() << ")"
+<          << "Borrowed Movies: " << dependingNumber - movieC->getNumOfMovies() << "\n"
+<          << "The amount of Movies Remaining: " << movieC->getNumOfMovies() << endl;
+< }
+---
+>       istringstream issued(line);
+>       char character;
+>       int dependingNumber;
+> 
+>       string characterOfStrings;
+>       getline(issued, characterOfStrings, ',');
+>       istringstream(characterOfStrings) >> character;
+> 
+>       string numberOfStrings;
+>       getline(issued, numberOfStrings);
+>       istringstream(numberOfStrings) >> dependingNumber;
+> 
+>       inFile.close(); // Close the input file
+> 
+>       // Display movie title, actor/release date, borrowed movies, and remaining
+>       // movies for Classic
+>       cout << movieC->getMovieTitle() << "("
+>            << movieC->getNameOfActorAndReleaseDate() << ")"
+>            << "Borrowed Movies: " << dependingNumber - movieC->getNumOfMovies()
+>            << "\n"
+>            << "The amount of Movies Remaining: " << movieC->getNumOfMovies()
+>            << endl;
+>     }
+495,498c525,527
+<             } 
+<             
+<               cout << "Customer not found✘" << endl;
+<             
+---
+>             }
+> 
+>             cout << "Customer not found✘" << endl;
+538c567
+<               //and update movie inventory for returning
+---
+>               // and update movie inventory for returning
+Running clang-format on ./store_test.cpp
+7a8
+> #include <fstream>
+11,12d11
+< #include <fstream>
+< 
+=====================================================
+5. No memory leaks using g++
+=====================================================
+=====================================================
+6. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+==1241171== Memcheck, a memory error detector
+==1241171== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1241171== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==1241171== Command: ./a.out
+==1241171== Parent PID: 1240999
+==1241171== 
+==1241171== 
+==1241171== HEAP SUMMARY:
+==1241171==     in use at exit: 0 bytes in 0 blocks
+==1241171==   total heap usage: 2,014 allocs, 2,014 frees, 1,871,439 bytes allocated
+==1241171== 
+==1241171== All heap blocks were freed -- no leaks are possible
+==1241171== 
+==1241171== For lists of detected and suppressed errors, rerun with: -s
+==1241171== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Sun Dec  3 22:13:44 PST 2023
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================
