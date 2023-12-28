@@ -1,0 +1,7 @@
+circle 150 150 60 orange
+triangle 120 130 130 120 140 130 black
+triangle 160 130 170 120 180 130 black
+rectangle 130 160 40 10 black
+triangle 150 145 155 135 145 135 black
+square 145 75 20 green
+

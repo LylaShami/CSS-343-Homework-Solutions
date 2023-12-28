@@ -1,0 +1,16 @@
+circle 250 175 200 orange
+triangle 100 100 120 150 80 150 green
+triangle 100 150 130 200 70 200 green 
+triangle 100 200 140 250 60 250 green 
+rectangle 95 250 10 50 brown
+triangle 250 100 270 150 230 150 green 
+triangle 250 150 280 200 220 200 green
+triangle 250 200 290 250 210 250 green
+rectangle 245 250 10 50 brown
+triangle 400 100 420 150 380 150 green 
+triangle 400 150 430 200 370 200 green
+triangle 400 200 440 250 360 250 green
+rectangle 395 250 10 50 brown
+rectangle 0 400 500 100 green
+
+

@@ -1,0 +1,5 @@
+rectangle 100 100 50 75 red
+rectangle 200 200 100 50 blue
+rectangle 300 300 30 40 green
+rectangle 400 400 10 10 purple
+

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
+      <circle cx="250" cy="175" r="200" fill="orange"  />
+      <polygon points="100,100 120,150 80,150" fill="green"  />
+      <polygon points="100,150 130,200 70,200" fill="green"  />
+      <polygon points="100,200 140,250 60,250" fill="green"  />
+      <rect x="95" y="250" width="10" height="50" fill="brown"  />
+      <polygon points="250,100 270,150 230,150" fill="green"  />
+      <polygon points="250,150 280,200 220,200" fill="green"  />
+      <polygon points="250,200 290,250 210,250" fill="green"  />
+      <rect x="245" y="250" width="10" height="50" fill="brown"  />
+      <polygon points="400,100 420,150 380,150" fill="green"  />
+      <polygon points="400,150 430,200 370,200" fill="green"  />
+      <polygon points="400,200 440,250 360,250" fill="green"  />
+      <rect x="395" y="250" width="10" height="50" fill="brown"  />
+      <rect x="0" y="400" width="500" height="100" fill="green"  />
+</svg>

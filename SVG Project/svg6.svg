@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
+      <rect x="0" y="0" width="500" height="500" fill="blue"  />
+      <rect x="50" y="75" width="50" height="50" fill="white"  />
+      <rect x="350" y="75" width="50" height="50" fill="white"  />
+      <rect x="150" y="200" width="200" height="200" fill="brown"  />
+      <polygon points="150,200 350,200 250,100" fill="black"  />
+      <rect x="175" y="225" width="50" height="50" fill="black"  />
+      <rect x="275" y="225" width="50" height="50" fill="black"  />
+      <rect x="225" y="300" width="50" height="100" fill="red"  />
+      <rect x="0" y="400" width="500" height="100" fill="green"  />
+</svg>

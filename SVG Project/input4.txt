@@ -1,0 +1,5 @@
+triangle 100 100 200 200 300 100 red
+triangle 50 50 100 150 200 50 blue
+triangle 200 200 250 300 350 250 green
+triangle 75 75 150 200 100 50 purple
+

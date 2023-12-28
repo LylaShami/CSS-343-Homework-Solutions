@@ -1,0 +1,9 @@
+rectangle 0 0 500 500 blue
+square 50 75 50 white 
+square 350 75 50 white
+square 150 200 200 brown 
+triangle 150 200 350 200 250 100 black 
+rectangle 175 225 50 50 black 
+rectangle 275 225 50 50 black 
+rectangle 225 300 50 100 red 
+rectangle 0 400 500 100 green

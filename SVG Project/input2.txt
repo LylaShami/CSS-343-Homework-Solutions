@@ -1,0 +1,5 @@
+square 100 100 50 red
+square 200 200 75 blue
+square 300 300 40 green
+square 400 400 60 purple
+
